@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="Css/index.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="title">Изучаем формы</div>
+            <form action="myScript"name="my_form" id="my-form">
+                Текстовый ввод:
+                <div id="div-input">
+                    <input type="text" id="input-name" name="input_name" value="Hello">
+                    <br>
+                    <select name="my_select" id="my-select">
+                        <option value="1">Tallinn</option>
+                        <option value="2">Narva</option>
+                        <option value="3">Johvi</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="my-checkbox"name="my_checkbox" checked="true">Флажек
+                    <br>
+                     <input type="radio" id="my-radio"name="my_radiox" checked="true"> Выбрано это значение
+                    <br>
+                    <input type="radio" id="my-radio"name="my_radiox" checked="folse"> Выбрано это значение
+                    <br>
+                    <textarea name="text_article" id="text_article">Длинный текст,например полный текст статьи</textarea>
+                    <input type="submit" value="Отправить">
+                    <input type="submit" value="Стереть">
+                </div>
+            </form>    
+    </body>
+</html>

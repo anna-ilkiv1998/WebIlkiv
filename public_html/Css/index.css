@@ -1,0 +1,27 @@
+#wrapper{
+    width:400px;
+    margin: 50px auto;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+#div-input{
+   width: 100px;
+   
+    
+}
+#title{
+    margin: 50px auto;
+    
+}
+#input-name{
+    width: 300px;
+    margin: 10px;
+}
+#text_article{
+    width: 300px;
+    margin: 10px;
+}
+#my-select{
+     width: 300px;
+    margin: 10px;
+}
